@@ -41,7 +41,7 @@ namespace BudgetPlannerV1
             if (!File.Exists(budgetFilePath))
             {
                 // Create an empty JSON array
-                File.WriteAllText(budgetFilePath, "[]");
+                File.WriteAllText(budgetFilePath, "[]"); 
             }
         }
 
